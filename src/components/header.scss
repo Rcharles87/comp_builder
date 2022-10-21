@@ -1,0 +1,25 @@
+.header{
+    display:flex;
+    padding: 20px;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+
+    // &__logoContainer{
+        
+    // }
+    
+    &__logo{  
+        width: 175px;
+    }
+
+    // &__buttonContainer{
+
+    // }
+
+    &__button{
+        margin: 5px;
+        padding: 10px;
+    }
+
+}
