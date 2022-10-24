@@ -7,18 +7,32 @@
     background-size: cover;
     align-items: center;
     justify-content: center;
+    
 
-    &__container p{
-        color: rgb(33, 37, 38);
-        font-size: 65px;
-        font-weight: 800;
+    &__container{
+        display: flex;
+        max-width: 1200px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        p{
+            color: #406e8e;
+            font-size: 65px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        input{
+            font-size: 20px;
+            width: 300px;
+            text-align: center;
+            border-radius: 25px;
+            border-style: solid ;
+            padding: 10px;
+        }
+    
     }
 
-    &__container input{
-        width: 300px;
-        text-align: center;
-        border-radius: 25px;
-        border-style: solid ;
-        padding: 10px;
-    }
+    
+
 }

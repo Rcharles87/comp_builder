@@ -1,0 +1,40 @@
+.infographics{
+    display: flex;
+    justify-content: center;
+
+    &__container{
+        max-width: 720px;
+        display: flex;
+        justify-content: space-around;
+
+        & .graphic{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: column;
+            & img{
+                position: absolute;
+                // max-width: 160px;
+                height: 10rem;
+                z-index: -1;
+            }
+             & h2{
+                position: relative;
+                z-index: 2;
+                font-size: 3.4rem;
+                padding-top: 150px;
+                font-weight: 900;
+                margin-top: 0;
+                margin-bottom: 15px;
+             }
+             & h6{
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 1.25rem;
+                margin: 5px;
+             }
+        }
+    }
+}
